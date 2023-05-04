@@ -1,0 +1,204 @@
+.Homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6vh;
+  position: relative;
+  min-height: 100vh;
+}
+
+.button-container {
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+}
+
+@media only screen and (max-width: 768px) {
+  .button-row {
+  flex-direction: column;
+  }
+  .button {
+  margin-bottom: 10px;
+  }
+  }
+
+.footer {
+  position: relative; 
+  width: 100%;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  margin-top: 350px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 14px;
+}
+
+.Homepage-title {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  height: 306px;
+  letter-spacing: normal;
+  margin: 0;
+  width: 100%;
+  margin-top: 71px;
+  margin-left: 37vh;
+}
+
+.title-2 {
+  font-size: 24px;
+}
+
+.title-3 {
+  font-size: 20px;
+}
+
+.Homepage-title h2 {
+  margin-bottom: 25px;
+}
+
+.Homepage-title h2 + h2 {
+  margin-top: 10px;
+}
+
+.Homepage-title .title-2 {
+  margin-bottom: 24px;
+}
+
+.math-button, .english-button, .history-button, .biology-button, .chemistry-button, .physics-button, .art-button, .geography-button {
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  height: 500px;
+  justify-content: center;
+  letter-spacing: normal;
+  margin-left: 65px;
+  margin-top: 11vh;
+  margin-bottom: -87px;
+  padding-bottom: 122px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 210px;
+  margin-right: -50px;
+  width: 877px;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  border-radius: 5px;
+  border: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,94,130,1) 35%, rgba(0,212,255,1) 100%);
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: normal;
+}
+
+.english-button, .biology-button, .physics-button, .geography-button {
+  margin-right: 72px;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  height: 80px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 2;
+}
+
+.button-wrapper {
+  position: absolute;
+  top: 18px;
+  right: 66px;
+}
+  
+.registrastionSuccess {
+background-color: #305e82;
+border: 0;
+border-radius: 5px;
+color: #ffffff;
+cursor: pointer;
+font-size: 14px;
+font-weight: bold;
+margin-left: -46px;
+margin-right: 58px;
+margin-top: -5px;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 1555px;
+  margin-top: -34px;
+}
+
+.button-primary {
+  background-color: #305e82;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: -40px;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: #305e82;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  padding: 10px 20px;
+  border: 1px solid #305e82;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button-secondary:hover {
+  background-color: #305e82;
+  color: #fff;
+}
+
+.App-logo {
+  height: 200px;
+  width: auto;
+  top: -20px;
+  left: -8px;
+  position: absolute;
+}
+
+body {
+  background: url(../assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}

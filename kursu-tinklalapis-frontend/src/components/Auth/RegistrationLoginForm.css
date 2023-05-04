@@ -1,0 +1,209 @@
+.RegistrationForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  color: rgb(51, 51 ,51);
+  font-size: 32px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.containerLogin {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.registracija-title {
+  color:rgb(255, 255, 255);
+  direction: ltr;
+  display: block;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  height: 40px;
+  letter-spacing: normal;
+  margin-bottom: 35px;
+  width: 314px;
+}
+
+#email::placeholder, #password::placeholder, #confirmPassword::placeholder, #firstName::placeholder, #lastName::placeholder {
+  color: rgb(71, 71, 71);
+  cursor: default;
+  direction: ltr;
+  display: block;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+  height: 20px;
+  left: 23px;
+  letter-spacing: normal;
+  position: absolute;
+  top: 25px;
+  transform: matrix(1, 0, 0, 1, 0, -10);
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.1s, 0.1s, 0.1s;
+  transition-property: font, top, transform;
+  transition-timing-function: ease, ease, ease;
+  width: 171px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.RegistrationForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.RegistrationForm div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.RegistrationForm label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.RegistrationForm input[type="text"]:focus,
+.RegistrationForm input[type="email"]:focus,
+.RegistrationForm input[type="password"]:focus {
+  background-color: rgb(69, 69, 69);
+  outline: none;
+  text-align: left;
+}
+.RegistrationForm input[type="text"],
+.RegistrationForm input[type="email"],
+.RegistrationForm input[type="password"] {
+  appearance: none;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(140, 140, 140);
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variation-settings: normal;
+  font-weight: 400;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 50px;
+  margin-left: 37px;
+  margin-right: 0px;
+  text-align: left;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: none;
+  unicode-bidi: isolate;
+  width: 314px;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  -webkit-font-smoothing: antialiased;
+  -webkit-rtl-ordering: logical;
+  -webkit-border-image: none;
+  padding: 1rem;
+  margin-bottom: -10px;
+  margin-top: -2px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.RegistrationForm input[type="password"] + .input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.RegistrationForm input[type="password"] + .input-container input[type="password"] {
+  width: 100%;
+}
+
+.RegistrationForm button[type="submit"] {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-weight: 500;
+  margin-top: 1.65rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #305e82;
+  cursor: pointer;
+  width: 314px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit, buttons {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-weight: 500;
+  margin-top: 1.65rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #305e82;
+  cursor: pointer;
+  width: 314px;
+  transition: background-color 0.3s ease-in-out;
+} 
+
+.RegistrationForm .error {
+  color: red;
+  margin-top: 15px;
+  margin-left: 35px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 13px;
+}
+
